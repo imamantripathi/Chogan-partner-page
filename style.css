@@ -2,3 +2,8 @@
 *{
     font-family: 'Josefin Sans', sans-serif;
 }
+.mask-custom {
+    backdrop-filter: blur(5px);
+    background-color: rgba(254, 255, 253, 0.15);
+  }
+  
