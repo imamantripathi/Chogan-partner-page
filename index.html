@@ -8,171 +8,235 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
     <!-- JavaScript -->
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    
   </head>
-  
-    <body
-      class="antialiased bg-gradient-to-r from-[#dcfce7] via-[#f0fdf4] to-[#dcfce7] lg:px-28"
-    >
-      <header class="sticky top-0 z-50">
-        <nav
-          class="flex flex-wrap items-center justify-center w-full py-4 px-4 text-lg text-gray-700 mask-custom "
-        >
-          <div
-            class="hidden w-full md:flex md:items-center md:w-auto "
-            id="menu"
+
+  <body
+    class="antialiased bg-gradient-to-r from-[#dcfce7] via-[#f0fdf4] to-[#dcfce7] lg:px-28"
+  >
+    <header class="sticky top-0 z-50">
+      <nav
+        class="flex flex-wrap items-center justify-center w-full py-4 px-4 text-lg text-gray-700 mask-custom"
+      >
+        <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+          <ul
+            class="pt-4 text-base text-gray-700 md:flex md:justify-between md:pt-0"
           >
-            <ul
-              class="pt-4 text-base text-gray-700 md:flex md:justify-between md:pt-0"
-            >
-              <li>
-                <a
-                  class="md:p-4 py-2 font-semibold block hover:font-bold"
-                  href="#"
-                  >HOME</a
-                >
-              </li>
-              <li>
-                <a class="md:p-4 py-2 block hover:font-semibold" href="#"
-                  >CHOGAN KATALOGE</a
-                >
-              </li>
-              <li>
-                <a class="md:p-4 py-2 block hover:font-semibold" href="#"
-                  >CHOGAN PARFUMS</a
-                >
-              </li>
-            </ul>
-          </div>
-              <div class="mt-4 sm:hidden">
-                <a
-                class=" py-1 font-semibold block hover:font-bold"
+            <li>
+              <a
+                class="md:p-4 py-2 font-semibold block hover:font-bold"
                 href="#"
                 >HOME</a
               >
-              </div>
-        </nav>
-      </header>
-      <!-- Flickity HTML init -->
-<div class="carousel rounded-lg text-center shadow-xl shadow-black/20" 
-data-flickity='{ "imagesLoaded": true, "percentPosition": false, "autoPlay": true }'>
-<img src="img/sliders/1.gif" alt="img" />
-<img src="img/sliders/2.jpg" alt="img" />
-<img src="img/sliders/3.jpg" alt="img" />
-<img src="img/sliders/4.jpg" alt="img" />
-<img src="img/sliders/5.jpg" alt="img" />
-</div>
-
-      <section class="pt-28">
-        <div class="container mx-auto px-6">
-          <h1 class="font-bold text-4xl">Chogan BeraterIn werden</h1>
-          <div class="mt-2">
-            <span class="inline-block w-40 h-1 bg-[#000] rounded-full"></span>
-            <span
-              class="inline-block w-3 h-1 ml-1 bg-[#000] rounded-full"
-            ></span>
-            <span
-              class="inline-block w-1 h-1 ml-1 bg-[#000] rounded-full"
-            ></span>
-          </div>
-          <ul class="lg:mt-16 lg:mb-16">
-            <li class="text-xl mb-4">
-              Als Chogan BeraterIn kannst Du alle Chogan Produkte zum
-              Sonderpreis für Berater (Händler-Rabatt) einkaufen.
             </li>
-            <li class="text-xl mb-4">
-              Es gibt keinen Mindestumsatz und keine Verpflichtungen. Du kannst
-              auch nur für Dich selbst einkaufen.
-            </li>
-            <li class="text-xl mb-4">
-              Chogan Berater zu werden, ist ganz einfach:
-            </li>
-            <li class="text-xl mb-4">
-              Zuerst musst Du Dich im Chogan Online Shop als
-              <b>Neukunde</b> registrieren:
-            </li>
-            <li class="text-xl mb-4 underline">
-              <a
-                href="https://www.chogangroupspa.com/chogangroup/registration/1/BEA43989A/15"
-                >Zum Chogan Online Shop</a
+            <li>
+              <a class="md:p-4 py-2 block hover:font-semibold" href="#"
+                >CHOGAN KATALOGE</a
               >
             </li>
-            <li class="text-xl mb-4">
-              Anschließend kannst Du Dein <b>Startpaket</b> bestellen.
-            </li>
-            <li class="text-xl mb-4">
-              Deine Start-Bestellung muss ein <b>Probenset</b> und einen
-              Punktwert von <b>mindestens 100 Punkten</b> enthalten!
-            </li>
-            <li class="text-xl mb-4">
-              Wähle dazu am besten <b>2 x das Starter Kit</b> oder das
-              <b>Starter Kit + Waren </b>aus, um die 100 Punkte zu erreichen.
-            </li>
-            <li class="text-xl mb-4">
-              Danach bist Du <b>sofort </b>als Berater freigeschaltet und kannst
-              alles zum Berater-Sonderpreis einkaufen!
+            <li>
+              <a class="md:p-4 py-2 block hover:font-semibold" href="#"
+                >CHOGAN PARFUMS</a
+              >
             </li>
           </ul>
         </div>
-      </section>
-      <section>
-        <div class="container mx-auto my-20 w-[80%] border border-[#4ade80] " style="background: rgba(171, 247, 148, 0.15);
-        box-shadow: 0 0 40px rgba(156, 243, 175, 0.6);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);">
-          <div class="p-5 space-y-5 shadow-xl">
-            <h4 class="text-center text-3xl">Machen Sie jetzt mit</h4>
-        
-            <form>
-              <div class="grid grid-cols-2 gap-5">
-                <input name="fname" required
-                  type="text"
-                  class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-[#4ade80]"
-                  placeholder="Vorname"
-                />
-                <input name="lname" required
-                  type="text"
-                  class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-[#4ade80]"
-                  placeholder="Nachname"
-                />
-                <input name="email" required
-                  type="email"
-                  class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-[#4ade80] col-span-2"
-                  placeholder="Email"
-                />
-                <input name="phone" required
-                  type="tel"
-                  class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-[#4ade80] col-span-2"
-                  placeholder="Telefon"
-                />
-                <textarea name="message" required
-                  cols="10"
-                  rows="5"
-                  class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-[#4ade80] col-span-2"
-                  placeholder="Schreibe deine Nachricht..."
-                ></textarea>
-              </div>
-              <input name="submit"
-                type="submit"
-                value="Nachricht senden"
-                class="focus:outline-none mt-5 bg-[#86efac] px-4 py-2 text-dark font-bold w-full"
+        <div class="mt-4 sm:hidden">
+          <a class="py-1 font-semibold block hover:font-bold" href="#">HOME</a>
+        </div>
+      </nav>
+    </header>
+    <!-- Flickity HTML init -->
+    <div
+      class="carousel rounded-lg text-center shadow-xl shadow-black/20"
+      data-flickity='{ "imagesLoaded": true, "percentPosition": false, "autoPlay": true, "autoPlay": 8000}'
+    >
+      <img loading="lazy" src="img/sliders/1.gif" alt="img" />
+      <img src="img/sliders/2.jpg" alt="img" />
+      <img src="img/sliders/3.jpg" alt="img" />
+      <img src="img/sliders/4.jpg" alt="img" />
+      <img src="img/sliders/5.jpg" alt="img" />
+    </div>
+
+    <section class="pt-28">
+      <div class="container mx-auto px-6">
+        <h1 class="font-bold text-4xl">Chogan BeraterIn werden</h1>
+        <div class="mt-2">
+          <span class="inline-block w-40 h-1 bg-[#000] rounded-full"></span>
+          <span class="inline-block w-3 h-1 ml-1 bg-[#000] rounded-full"></span>
+          <span class="inline-block w-1 h-1 ml-1 bg-[#000] rounded-full"></span>
+        </div>
+        <ul class="lg:mt-16 lg:mb-16">
+          <li class="text-xl mb-4">
+            Als Chogan-Berater können Sie alle Chogan-Produkte mit einem
+            Händlerrabatt kaufen.
+          </li>
+          <li class="text-xl mb-4">
+            Es gibt keinen Mindestumsatz und keine Verpflichtungen. Du kannst
+            auch nur für Dich selbst einkaufen.
+          </li>
+          <li class="text-xl mb-4">
+            Chogan Berater zu werden, ist ganz einfach:
+          </li>
+          <li class="text-xl mb-4">
+            Zuerst musst Du Dich im Chogan Online Shop als
+            <b>Neukunde</b> registrieren:
+          </li>
+          <li class="text-xl mb-4 underline">
+            <a
+              href="https://www.chogangroupspa.com/chogangroup/registration/1/ADI5BED6C/15"
+              >Zum Chogan Online Shop</a
+            >
+          </li>
+          <li class="text-xl mb-4">
+            Anschließend kannst Du Dein <b>Startpaket</b> bestellen.
+          </li>
+          <li class="text-xl mb-4">
+            Deine Start-Bestellung muss ein <b>Probenset</b> und einen Punktwert
+            von <b>mindestens 100 Punkten</b> enthalten!
+          </li>
+          <li class="text-xl mb-4">
+            Wähle dazu am besten das <b>Starter Kit + Waren</b> aus, um die 100
+            Punkte zu erreichen.
+          </li>
+          <li class="text-xl mb-4">
+            Danach bist Du <b>sofort </b>als Berater freigeschaltet und kannst
+            alles zum Berater-Sonderpreis einkaufen!
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div
+        class="container mx-auto my-20 w-[80%] border border-[#4ade80]"
+        style="
+          background: rgba(171, 247, 148, 0.15);
+          box-shadow: 0 0 40px rgba(156, 243, 175, 0.6);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
+        "
+      >
+        <div class="p-5 space-y-5 shadow-xl">
+          <h4 class="text-center text-3xl">Machen Sie jetzt mit</h4>
+
+          <form method="post" action="action.php" >
+            <div class="grid grid-cols-2 gap-5">
+              <input
+                name="fname"
+                required
+                type="text"
+                class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-[#4ade80]"
+                placeholder="Vorname"
               />
-            </form>
+              <input
+                name="lname"
+                required
+                type="text"
+                class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-[#4ade80]"
+                placeholder="Nachname"
+              />
+              <input
+                name="email"
+                required
+                type="email"
+                class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-[#4ade80] col-span-2"
+                placeholder="Email"
+              />
+              <input
+                name="phone"
+                required
+                type="tel"
+                class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-[#4ade80] col-span-2"
+                placeholder="Telefon"
+              />
+              <textarea
+                name="message"
+                required
+                cols="10"
+                rows="5"
+                class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-[#4ade80] col-span-2"
+                placeholder="Schreibe deine Nachricht..."
+              ></textarea>
+            </div>
+            <input
+              name="submit"
+              type="submit"
+              value="Nachricht senden"
+              class="focus:outline-none mt-5 bg-[#86efac] px-4 py-2 text-dark font-bold w-full"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="pt-28">
+      <div class="container mx-auto px-4">
+        <h1 class="font-bold text-4xl">Chogan BeraterIn werden</h1>
+        <div class="mt-2">
+          <span class="inline-block w-40 h-1 bg-[#000] rounded-full"></span>
+          <span class="inline-block w-3 h-1 ml-1 bg-[#000] rounded-full"></span>
+          <span class="inline-block w-1 h-1 ml-1 bg-[#000] rounded-full"></span>
+        </div>
+        <div class="grid lg:grid-cols-2 grid-cols-1 gap-4 pt-20">
+          <div>
+            <img src="img/partner.jpg" class="h-[300px]" alt="" />
+            <br />
+            <h1 class="text-xl">
+              Gern bin ich Dir bei Deiner Start-Bestellung behilflich!
+            </h1>
+          </div>
+          <div class="px-4">
+            <h1 class="font-bold text-2xl mb-10">Das bietet Dir Chogan:</h1>
+            <ul>
+              <li class="text-xl mb-2">
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                Einkaufen zum Händler Rabatt
+              </li>
+              <li class="text-xl mb-2">
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i> Über
+                7.000 Produkte
+              </li>
+              <li class="text-xl mb-2">
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i> davon
+                134 Düfte
+              </li>
+              <li class="text-xl mb-2">
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                Kosmetik, Ätherische Öle, Haushaltsprodukte und mehr
+              </li>
+              <li class="text-xl mb-2">
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i> Kein
+                Verkaufszwang
+              </li>
+              <li class="text-xl mb-2">
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                Wöchentliche coachings (freiwillig)
+              </li>
+            </ul>
+            <br />
+            <button
+              onclick="location.href=`https://www.chogangroupspa.com/chogangroup/registration/1/BEA43989A/15`"
+              class="bg-transparent font-semibold py-1 px-4 border border-[#000] shadow transition duration-500 ease-in-out"
+            >
+              JETZT ANMELDEN
+            </button>
           </div>
         </div>
-      </section>
-      <section class="pt-28">
-        <div class="container mx-auto px-4">
-          <h1 class="font-bold text-4xl">Chogan BeraterIn werden</h1>
-          <div class="mt-2">
-            <span class="inline-block w-40 h-1 bg-[#000] rounded-full"></span>
+      </div>
+    </section>
+    <footer class="mt-32 mb-20 px-6">
+      <div class="grid lg:grid-cols-3 grid-cols-1">
+        <div>
+          <h1 class="font-bold text-xl">IMPRESSUM</h1>
+          <div>
             <span
               class="inline-block w-3 h-1 ml-1 bg-[#000] rounded-full"
             ></span>
@@ -180,96 +244,42 @@ data-flickity='{ "imagesLoaded": true, "percentPosition": false, "autoPlay": tru
               class="inline-block w-1 h-1 ml-1 bg-[#000] rounded-full"
             ></span>
           </div>
-          <div class="grid lg:grid-cols-2 grid-cols-1 gap-4 pt-20">
-            <div>
-              <img src="img/partner.jpg" class="h-[300px]" alt="" />
-              <br />
-              <h1 class="text-xl">
-                Gern bin ich Dir bei Deiner Start-Bestellung behilflich!
-              </h1>
-            </div>
-            <div class="px-4">
-              <h1 class="font-bold text-2xl mb-10">Das bietet Dir Chogan:</h1>
-              <ul>
-                <li class="text-xl mb-2">
-                  <i class="fa fa-check-circle-o" aria-hidden="true"></i>
-                  Einkaufen zum Sonderpreis
-                </li>
-                <li class="text-xl mb-2">
-                  <i class="fa fa-check-circle-o" aria-hidden="true"></i> Über
-                  7.000 Produkte
-                </li>
-                <li class="text-xl mb-2">
-                  <i class="fa fa-check-circle-o" aria-hidden="true"></i> davon
-                  134 Düfte
-                </li>
-                <li class="text-xl mb-2">
-                  <i class="fa fa-check-circle-o" aria-hidden="true"></i>
-                  Kosmetik, Ätherische Öle, Haushaltsprodukte und mehr
-                </li>
-                <li class="text-xl mb-2">
-                  <i class="fa fa-check-circle-o" aria-hidden="true"></i> Kein
-                  Verkaufszwang
-                </li>
-                <li class="text-xl mb-2">
-                  <i class="fa fa-check-circle-o" aria-hidden="true"></i>
-                  Wöchentliche Produkt-Trainings (freiwillig)
-                </li>
-              </ul>
-              <br />
-              <button
-                onclick="location.href=`https://www.chogangroupspa.com/chogangroup/registration/1/BEA43989A/15`"
-                class="bg-transparent font-semibold py-1 px-4 border border-[#000] shadow transition duration-500 ease-in-out"
-              >
-                JETZT ANMELDEN
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <footer class="mt-32 mb-20 px-6">
-        <div class="grid lg:grid-cols-3 grid-cols-1">
-          <div>
-            <h1 class="font-bold text-xl">IMPRESSUM</h1>
-            <div>
-              <span
-                class="inline-block w-3 h-1 ml-1 bg-[#000] rounded-full"
-              ></span>
-              <span
-                class="inline-block w-1 h-1 ml-1 bg-[#000] rounded-full"
-              ></span>
-            </div>
 
-            <p class="text-md">
-              Chogan Beraterin Beatrice Hassa <br />
-              Thomas-Müntzer-Str. 7 <br />
-              08115 Lichtentanne<br />
-              Umsatzsteuer-ID: DE233138677<br />
-            </p>
-          </div>
-          <div>
-            <br>
-            <h1 class="font-bold text-xl">KONTAKT</h1>
-            <div>
-              <span
-                class="inline-block w-3 h-1 ml-1 bg-[#000] rounded-full"
-              ></span>
-              <span
-                class="inline-block w-1 h-1 ml-1 bg-[#000] rounded-full"
-              ></span>
-            </div>
-
-            <p class="text-md">
-              Whatsapp:
-              <a href="tel: 4917685424144" class="underline"> 4917685424144</a>
-              <br />
-              Email:
-              <a href="mailto:adisa.smajovic@web.de" class="underline">
-                adisa.smajovic@web.de</a
-              >
-            </p>
-          </div>
+          <p class="text-md">
+            Chogan Beraterin Beatrice Hassa <br />
+            Thomas-Müntzer-Str. 7 <br />
+            08115 Lichtentanne<br />
+            Umsatzsteuer-ID: DE233138677<br />
+          </p>
         </div>
-      </footer>
-    </body>
+        <div>
+          <br />
+          <h1 class="font-bold text-xl">KONTAKT</h1>
+          <div>
+            <span
+              class="inline-block w-3 h-1 ml-1 bg-[#000] rounded-full"
+            ></span>
+            <span
+              class="inline-block w-1 h-1 ml-1 bg-[#000] rounded-full"
+            ></span>
+          </div>
+
+          <p class="text-md">
+            Whatsapp:
+            <a
+              href="https://api.whatsapp.com/send?phone=4917685424144"
+              class="underline"
+            >
+              4917685424144</a
+            >
+            <br />
+            Email:
+            <a href="mailto:adisa.smajovic@web.de" class="underline">
+              adisa.smajovic@web.de</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
